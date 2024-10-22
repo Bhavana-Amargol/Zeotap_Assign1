@@ -27,13 +27,11 @@ The database will store rules in AST format for efficient querying and updates.
    ```bash
    git clone https://github.com/YOUR_GITHUB_USERNAME/YOUR_REPOSITORY_NAME.git
 2. Install dependencies:
-    ```.py
-pip install -r requirements.txt
+    ```.py pip install -r requirements.txt
    
 
 3. Run the application:
-    ```.py
-flask run
+    ```.py flask run
 
 5. API Endpoints
 Create Rule: /create_rule - Accepts a rule string and stores it in the database.
