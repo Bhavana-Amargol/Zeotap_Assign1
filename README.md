@@ -41,5 +41,14 @@ The database will store rules in AST format for efficient querying and updates.
 ```bash
 pip install pytest
 pytest testcase.py
+```
+
+# Bonus Features
+1. Error Handling for Invalid Rules
+Objective: Implemented error handling for incorrect rule strings (syntax errors, invalid operators, etc.) and data formats.
+2. Attribute Catalog Validation
+Objective: Ensured that attributes like age, department, salary, etc., are part of a predefined catalog. Invalid attributes should raise an error.
+3. Rule Modification Functionality
+Objective: Allows modification of existing rules to change operators, operand values, or add/remove sub-expressions.
 
    
