@@ -27,14 +27,19 @@ The database will store rules in AST format for efficient querying and updates.
    ```bash
    git clone https://github.com/Bhavana-Amargol/Zeotap_App1.git
 
- API Endpoints
+ ## API Endpoints
 2. Create Rule: /create_rule - Accepts a rule string and stores it in the database.
 3. Combine Rules: /combine_rules - Combines multiple rules into a single AST.
 4. Evaluate Rule: /evaluate_rule - Evaluates a rule AST against user attributes.
 
-Preferred Versions
+## Preferred Versions
 5. Flask==2.1.1
 6. ast==0.0.2
 7. psycopg2==2.9.1  # if using PostgreSQL
+
+##To test
+```bash
+pip install pytest
+pytest test_rule_engine.py
 
    
