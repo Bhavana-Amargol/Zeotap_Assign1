@@ -37,7 +37,7 @@ The database will store rules in AST format for efficient querying and updates.
 6. ast==0.0.2
 7. psycopg2==2.9.1  # if using PostgreSQL
 
-##To test
+## To test
 ```bash
 pip install pytest
 pytest test_rule_engine.py
