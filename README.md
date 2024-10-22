@@ -26,5 +26,20 @@ The database will store rules in AST format for efficient querying and updates.
 1. Clone the repository:
    ```bash
    git clone https://github.com/YOUR_GITHUB_USERNAME/YOUR_REPOSITORY_NAME.git
+2. Install dependencies:
+pip install -r requirements.txt
+
+3. Run the application:
+flask run
+
+4. API Endpoints
+Create Rule: /create_rule - Accepts a rule string and stores it in the database.
+Combine Rules: /combine_rules - Combines multiple rules into a single AST.
+Evaluate Rule: /evaluate_rule - Evaluates a rule AST against user attributes.
+
+Preferred Versions
+Flask==2.1.1
+ast==0.0.2
+psycopg2==2.9.1  # if using PostgreSQL
 
    
