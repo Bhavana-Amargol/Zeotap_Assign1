@@ -5,7 +5,7 @@
 This project is a simple 3-tier rule engine to evaluate user eligibility based on attributes like age, department, income, and spend.
 
 ## Application Structure
-- **Frontend**: Built using HTML/CSS/JavaScript for rule creation, modification, and evaluation.
+**Frontend**: Built using HTML/CSS/JavaScript for rule creation, modification, and evaluation.
 A simple web interface built using HTML/CSS and JavaScript (React.js or vanilla JS).
 The UI will allow users to:
 Create new rules.
