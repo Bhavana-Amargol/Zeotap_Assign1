@@ -27,12 +27,14 @@ The database will store rules in AST format for efficient querying and updates.
    ```bash
    git clone https://github.com/YOUR_GITHUB_USERNAME/YOUR_REPOSITORY_NAME.git
 2. Install dependencies:
+    ```bash
 pip install -r requirements.txt
 
 3. Run the application:
+    ```bash
 flask run
 
-4. API Endpoints
+5. API Endpoints
 Create Rule: /create_rule - Accepts a rule string and stores it in the database.
 Combine Rules: /combine_rules - Combines multiple rules into a single AST.
 Evaluate Rule: /evaluate_rule - Evaluates a rule AST against user attributes.
