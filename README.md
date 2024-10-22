@@ -40,6 +40,6 @@ The database will store rules in AST format for efficient querying and updates.
 ## To test
 ```bash
 pip install pytest
-pytest test_rule_engine.py
+pytest testcase.py
 
    
