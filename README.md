@@ -25,22 +25,16 @@ The database will store rules in AST format for efficient querying and updates.
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/YOUR_GITHUB_USERNAME/YOUR_REPOSITORY_NAME.git
-2. Install dependencies:
-    ```pip install -r requirements.txt
-   
+   git clone https://github.com/Bhavana-Amargol/Zeotap_App1.git
 
-3. Run the application:
-    ```flask run
-
-5. API Endpoints
-1. Create Rule: /create_rule - Accepts a rule string and stores it in the database.
-2. Combine Rules: /combine_rules - Combines multiple rules into a single AST.
-3. Evaluate Rule: /evaluate_rule - Evaluates a rule AST against user attributes.
+ API Endpoints
+2. Create Rule: /create_rule - Accepts a rule string and stores it in the database.
+3. Combine Rules: /combine_rules - Combines multiple rules into a single AST.
+4. Evaluate Rule: /evaluate_rule - Evaluates a rule AST against user attributes.
 
 Preferred Versions
-1. Flask==2.1.1
-2. ast==0.0.2
-3. psycopg2==2.9.1  # if using PostgreSQL
+5. Flask==2.1.1
+6. ast==0.0.2
+7. psycopg2==2.9.1  # if using PostgreSQL
 
    
